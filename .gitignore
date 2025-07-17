@@ -13,6 +13,7 @@
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -21,3 +22,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# local IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python virtual env, if present
+.venv/
